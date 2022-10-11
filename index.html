@@ -19,6 +19,9 @@
             document.getElementById("mega").innerHTML =
             "..."
          }
+         function paraditPiemeru(){
+           document.getElementById("teksts").style.display="block";
+         }
 
          
         </script>
@@ -107,7 +110,14 @@
                   <div class="container">
                     <div class="row align-items-start">
                       <div class="col">
-                        <img src=""
+                        <div id="teksts" style="display: none;">
+                          Absolventa piemers.
+                          Vards, Uzvārds
+                          (Dat. kad skolu pabeidza)
+                          utt.
+  
+                        </div>
+                        <img onclick="paraditPiemeru()" src="https://festivalslampa.lv/uploads/speakers/ap-2019-137-of-161-500x500.jpg?token=0a55e878ef243c8aa814ae14901c9f80">
                       </div>
                       <div class="col">
                         One of three columns
